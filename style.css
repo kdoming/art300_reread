@@ -1,0 +1,193 @@
+body{
+    background-color:white;
+    display: grid;
+}
+
+.header {
+    background-color: rgb(5, 106, 237);
+    margin-top: 0px;
+}
+
+h1 {
+   font-family: avenir;
+   color: white; 
+   background-color:rgb(5, 106, 237);
+   text-align: center;
+   font-size: 5em;
+   line-height: 40px;
+   margin: 400px auto auto auto;
+}
+
+h2 {
+    font-family: avenir;
+    color: #30478C; 
+    text-align: center;
+    font-size: 2em;
+}
+
+a {
+    color: #F2CB05;
+    font-size: 1.5em;
+    text-align: left;
+    text-decoration: none;
+    font-family: space mono;
+    margin: auto;
+    font-style: bold;
+    line-height: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+p:nth-of-type(4){
+    color: rgb(5, 106, 237);
+    text-align: justify;
+    line-height: 15px;
+    columns: 3;
+}
+
+p {
+    color: rgb(5, 106, 237);
+    font-family: space mono;
+    text-align: justify; 
+    margin: auto 25% auto 600px;
+    line-height: 45px;
+    }
+
+img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+    
+    /* ----------- SMART PHONES ----------- */
+    
+    
+    @media only screen and (max-width: 800px) {
+        body{
+            background-color:white;
+            display: grid;
+        }
+        
+        h1 {
+           font-family: avenir;
+           color: white; 
+           background-color:#F24141;
+           text-align: center;
+           font-size: 3em;
+           line-height: 30px;
+           margin: auto;
+        }
+        
+        .header{
+            background-color: white;
+        }
+
+        h2 {
+            font-family: avenir;
+            color: #F24141; 
+            text-align: center;
+            font-size: 2em;
+        }
+        
+        a {
+            color: #F2CB05;
+            font-size: 1.5em;
+            text-align: left;
+            text-decoration: none;
+            font-family: space mono;
+            margin: auto;
+            font-style: bold;
+            line-height: 10px;
+        }
+        
+        a:hover {
+            color: white;
+        }
+        
+        p:nth-of-type(4){
+            color: rgb(5, 106, 237);
+            text-align: justify;
+            margin: auto 50px auto 50px;
+        }
+        
+        p {
+            color: rgb(5, 106, 237);
+            font-family: space mono;
+            text-align: justify; 
+            margin: auto 50px auto 50px;
+            line-height: 45px;
+            }
+        
+        img {
+            max-width: 100%;
+            margin: auto;
+            display: block;
+        }
+    
+    }
+    /* ----------- TABLETS ----------- */
+    
+    @media only screen and (min-width: 800px) and (max-width: 1280px) {
+        body{
+            background-color: white;
+            display: grid;
+        }
+        
+        .header {
+            background-color: #03A66A;
+
+        }
+        
+        h1 {
+           font-family: avenir;
+           color: white;
+           background-color: #03A66A;
+           text-align: center;
+           font-size: 5em;
+           line-height: 40px;
+           margin: 50px auto auto auto;
+        }
+        
+        h2 {
+            font-family: avenir;
+            color: #30478C; 
+            text-align: center;
+            font-size: 2em;
+        }
+        
+        a {
+            color: white;
+            font-size: 1.5em;
+            text-align: left;
+            text-decoration: none;
+            font-family: space mono;
+            margin: auto; 
+        }
+        
+        a:hover {
+            color: #30478C;
+        }
+        
+        p:nth-of-type(4){
+            color:  #03A66A;
+            text-align: justify;
+            line-height: 15px;
+            columns: 3;
+        }
+        
+        p {
+            color: rgb(5, 106, 237);
+            font-family: space mono;
+            text-align: justify; 
+            margin: auto 75px auto 75px;;
+            line-height: 45px;
+            }
+        
+        img {
+            max-width: 100%;
+            margin: auto;
+            display: block;
+        }
+    }
